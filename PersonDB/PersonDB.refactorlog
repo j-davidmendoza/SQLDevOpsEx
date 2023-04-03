@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="b7312381-ecf5-4d99-866f-9547c4e25ea8" ChangeDateTime="02/24/2023 18:53:21">
+    <Property Name="ElementName" Value="[dbo].[Location]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[Locations]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="33cb30a4-dbe5-49d7-96d3-d61c1d999880" ChangeDateTime="02/24/2023 18:54:10">
+    <Property Name="ElementName" Value="[dbo].[LocationVisit]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[LocationVisits]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b4e9c61b-b575-4a4d-977f-e01e8e65f48e" ChangeDateTime="02/24/2023 18:54:44">
+    <Property Name="ElementName" Value="[dbo].[Person]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[People]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="56d153b1-7833-4455-ab98-9a4e0541d988" ChangeDateTime="02/24/2023 18:55:00">
+    <Property Name="ElementName" Value="[dbo].[PhoneNumber]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[PhoneNumbers]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f743c4c5-33a2-4a37-b764-0838f7ce8bfe" ChangeDateTime="02/24/2023 18:56:38">
+    <Property Name="ElementName" Value="[dbo].[Locations].[LocationName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Locations]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[PointOfInterest]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="791a8ee2-036c-4e2e-88dc-494f64f3524e" ChangeDateTime="02/24/2023 20:26:01">
+    <Property Name="ElementName" Value="[dbo].[PhoneNumbers]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[PhoneNumber]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="836858e3-3f69-4547-89a3-fe4dbd2f45ac" ChangeDateTime="02/24/2023 21:01:43">
+    <Property Name="ElementName" Value="[dbo].[PhoneNumber]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[PhoneNumberss]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a7e2db86-9ed7-4d8a-a168-aa36200565f4" ChangeDateTime="02/27/2023 18:28:25">
+    <Property Name="ElementName" Value="[dbo].[Locations]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[Location]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="309a40ea-cf4d-4a8b-9c45-d0de9921761c" ChangeDateTime="02/28/2023 21:34:40">
+    <Property Name="ElementName" Value="[dbo].[PhoneNumberss]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[PhoneNumbers]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c18fe074-0ccd-41ba-946f-12deb004da58" ChangeDateTime="02/28/2023 22:32:06">
+    <Property Name="ElementName" Value="[dbo].[Location].[PointOfInterest]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Location]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[PointsOfInterest]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="fddd7e6e-9d44-404c-b854-297285a1f3c2" ChangeDateTime="02/28/2023 22:37:35">
+    <Property Name="ElementName" Value="[dbo].[spPerson_LocationsVisited]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[usp_spPerson_LocationsVisited]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="aa203931-44c6-47c9-bf47-8091d24ea849" ChangeDateTime="03/02/2023 17:52:39">
+    <Property Name="ElementName" Value="[dbo].[Location].[PointsOfInterest]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Location]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[PointOfInterest]" />
+  </Operation>
+</Operations>
